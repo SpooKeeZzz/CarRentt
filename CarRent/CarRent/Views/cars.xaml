@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarRent.Views.cars"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#EBEBEB">
+            <Frame BackgroundColor="#1E4ABB" Padding="0,0,0,-50" Margin="0,-20,0,0" VerticalOptions="Fill" CornerRadius="20" >
+                <Image Source="MainCar.png"/>
+            </Frame>
+            <Label Text="Машины для аренды" FontSize="20" FontFamily="font-bold" FontAttributes="Bold"/>
+            <ScrollView VerticalOptions="Fill">
+                
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
